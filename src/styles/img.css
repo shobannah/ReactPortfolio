@@ -60,34 +60,32 @@
   font-family: 'Hachi Maru Pop', cursive;
   max-width: 10%;
   text-align: center;
-  margin: 30px;
   padding: 15px;
   border-radius: 20px;
-  font-weight: 800;
-  text-decoration: none !important;
 }
 
 
 a:link {
-  color: rgb(0, 0, 0);
+  color: rgb(141, 162, 230);
   background-color: transparent;
   text-decoration: none !important;
+  font-weight: 800;
 }
 
 a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(141, 162, 230);
   background-color: transparent;
   text-decoration: none !important;
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(141, 162, 230);
   background-color: transparent;
   text-decoration: underline !important;
 }
 
 a:active {
-  color: rgb(0, 0, 0);
+  color: rgb(141, 162, 230);
   background-color: transparent;
   text-decoration: underline !important;
 }
@@ -95,23 +93,27 @@ a:active {
 .card {
   display: block;
   margin: 20px auto;
-  padding: 10px;
   align-items: center;
   font-family: 'Hachi Maru Pop', cursive;
   font-weight: 400;
+  padding: 20px;
 }
 
 .cardimg {
   max-width: 80%;
+  
 }
 
-h5 {
+.titlename {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   border-style:dashed;
-  border-radius: 10px;
-  border-color: rgb(235, 182, 141);
-  margin: 10px;  
+  border-radius: 20px;
+  border-color: rgb(236, 153, 118);  
+  color: rgb(30, 115, 25);
+  font-weight: 900;
+  font-size: medium;
+
 }
 
 .img-resume {
@@ -141,6 +143,7 @@ h5 {
 }
 
 
+
 @media screen and  (max-width: 1025px) {
 
   .img-name {
@@ -165,9 +168,9 @@ h5 {
   }
 
   .card {
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   h5 {
@@ -190,6 +193,11 @@ h5 {
 
   .nav {
     font-size: x-small;
+  }
+
+  .titlename {
+    font-size: small;
+    padding: 10px;
   }
 
 }

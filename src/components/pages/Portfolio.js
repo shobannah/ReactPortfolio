@@ -23,26 +23,26 @@ export default function Portfolio() {
       src={portfoliogif} alt="portfolio pic" />
     </div>
 
-    <div class="cardflex">
+    <div class="row">
        
-      <div className="card">
+      <div className="card col-lg-5 col-md-5 col-xs">
           <a href="https://shobannah.github.io/BeatsAndEats/" target="_blank" rel="noreferrer">
-              <h5>BEETS & EATS</h5>
+              <h5 className='titlename'>BEETS & EATS</h5>
           </a>
           <img className='cardimg' src={BeatsAndEats} alt="BeatsAndEats pic" />
       </div>
       
-      <div className="card">
+      <div className="card col-lg-5 col-md-5 col-xs">
           <a href="https://recibeet-2.herokuapp.com/" target="_blank" rel="noreferrer">
-              <h5>ReciBEET</h5>
+              <h5 className='titlename'>ReciBEET</h5>
           </a>
           <img className='cardimg'src={reciBeet} alt="reciBeet" />
       </div>
 
-      <div className="card">
+      <div className="card col-lg-5 col-md-5 col-xs">
 
           <a href="https://plushinet.herokuapp.com" target="_blank" rel="noreferrer">
-              <h5>PlushiNet</h5>
+              <h5 className='titlename'>PlushiNet</h5>
           </a>
           <img className='cardimg' src={PlushiNet} alt="reciBeet" />
       </div>     
