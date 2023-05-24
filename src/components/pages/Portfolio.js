@@ -5,7 +5,7 @@ import BeatsAndEats from "../../assets/images/BeatsAndEats.png";
 import about from '../../assets/images/About.gif'
 import portfoliogif from '../../assets/images/Portfolio.gif'
 import PlushiNet from '../../assets/images/plushigif.gif'
-import { Col, Row } from 'antd';
+
 
 
 export default function Portfolio() {
@@ -23,45 +23,31 @@ export default function Portfolio() {
       src={portfoliogif} alt="portfolio pic" />
     </div>
 
-    <Row class="cardflex">
+    <div class="cardflex">
        
-      <Col className="card"
-      xs={{ span: 20 }}
-      sm={{ span: 12 }}
-      md={{ span: 7 }}
-      lg={{ span: 5 }}
-      xl={{ span: 7 }}>
+      <div className="card">
           <a href="https://shobannah.github.io/BeatsAndEats/" target="_blank" rel="noreferrer">
               <h5>BEETS & EATS</h5>
           </a>
           <img className='cardimg' src={BeatsAndEats} alt="BeatsAndEats pic" />
-      </Col>
+      </div>
       
-      <Col className="card"
-      xs={{ span: 20}}
-      sm={{ span: 12 }}
-      md={{ span: 7 }}
-      lg={{ span: 5 }}
-      xl={{ span: 7 }}>
+      <div className="card">
           <a href="https://recibeet-2.herokuapp.com/" target="_blank" rel="noreferrer">
               <h5>ReciBEET</h5>
           </a>
           <img className='cardimg'src={reciBeet} alt="reciBeet" />
-      </Col>
+      </div>
 
-      <Col className="card"
-      xs={{ span: 20 }}
-      sm={{ span: 12 }}
-      md={{ span: 7 }}
-      lg={{ span: 5 }}
-      xl={{ span: 7 }}>
+      <div className="card">
+
           <a href="https://plushinet.herokuapp.com" target="_blank" rel="noreferrer">
               <h5>PlushiNet</h5>
           </a>
           <img className='cardimg' src={PlushiNet} alt="reciBeet" />
-      </Col>     
+      </div>     
 
-    </Row>
+    </div>
   </div>
   );
 }
