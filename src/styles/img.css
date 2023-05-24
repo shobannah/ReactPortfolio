@@ -1,7 +1,190 @@
-img {
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Gloria+Hallelujah&family=Hachi+Maru+Pop&family=Mali:wght@200&display=swap');
+
+
+.namecolor {
+  background-color: rgb(243, 237, 218);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.img-name {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  max-width: 60%;
+  border-radius: 20px;
 }
 
+.img-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.amlines {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(212, 214, 179);
+  border-radius: 20px;
+  padding: 40px;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-weight: 800;
+  color: rgb(3, 0, 0);
+}
+
+.nav{
+  font-family: 'Hachi Maru Pop', cursive;
+  font-weight: 900;
+ 
+}
+
+.img-portfolio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.links {
+  font-family: 'Hachi Maru Pop', cursive;
+  max-width: 10%;
+  text-align: center;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline !important;
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline !important;
+}
+
+.card {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  align-items: center;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-weight: 400;
+}
+
+.cardimg {
+  max-width: 80%;
+}
+
+h5 {
+  text-align: center;
+  padding: 20px;
+  border-style:dashed;
+  border-radius: 10px;
+  border-color: rgb(235, 182, 141);
+  margin: 10px;  
+}
+
+.img-resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.resume {
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: rgb(222, 217, 217);
+  padding: 30px;
+  margin: 5px;
+  border-radius: 10px;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-weight: 800;
+}
+
+
+@media screen and  (max-width: 1025px) {
+
+  .img-name {
+    max-width: 100%;
+  }
+
+  .namecolor {
+    padding: 10px;
+  }  
+
+  .footer {
+    font-size: small;
+    padding: 10px;
+  }
+
+  .img-about {
+  max-width: 100%;
+  }
+
+  .img-portfolio {
+    max-width: 100%;
+  }
+
+  .card {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  h5 {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .cardimg {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .img-resume {
+    max-width: 100%;
+  }
+
+  .resume {
+    max-width: 100%;
+  }
+}

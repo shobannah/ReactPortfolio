@@ -1,48 +1,30 @@
 import React from 'react';
-import { useState } from 'react';
-
+import contact from '../../assets/images/Together.gif'
+import '../../styles/img.css';
 
 
 export default function Contact() {
 
-  const [inputs, setInputs] = useState({});
-
-  const handleChange = (event) => {
-    const name = event.target.name;
-    const value = event.target.value;
-    setInputs(values => ({...values, [name]: value}))
-  }
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert(inputs);
-  }
-
-
-  return (
-    <div className={'m-5'}>
-      <h1>Contact Page</h1>
-      <form onSubmit={handleSubmit}
-      className='text-center'>
-      <label className='p-2'>Enter your email address:
-      <input className='p-2'
-        type="text" 
-        name="username" 
-        value={inputs.username || ""} 
-        onChange={handleChange}
-      />
-      </label>
-      <label className='p-2'>Enter your message:
-        <input className='p-2' 
-          type="text" 
-          name="message" 
-          value={inputs.message || ""} 
-          onChange={handleChange}
-        />
-        </label>
-        <input type="submit" />
-    </form>
+return (
+  <div className='row'>
+    <div>  
+        <img 
+        className={'img-portfolio'}
+        src={contact} alt="contact pic" />
     </div>
+
+    <div className='links col'>
+      <h5><a href="mailto:shobannah@gmail.com" target="_blank">Email Me!</a></h5>
+    </div>
+
+    <div className='links col'>
+      <h5><a href="tel:407-748-8015" target="_blank">Call Me!</a></h5>
+    </div>
+
+    <div className='links col'>
+    <h5><a href="https://www.linkedin.com/in/shobannah-ally/" target="_blank">LinkedIn</a></h5>
+    </div>
+  </div>
   );
 }
 

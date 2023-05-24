@@ -1,11 +1,19 @@
 import React from 'react';
 import resume from '../../assets/images/resume.png';
+import resumegif from '../../assets/images/Resume.gif';
 
 export default function Resume() {
 
   return (
-    <img 
-      className={'w-50 p-3'}
-      src={resume} alt="profile pic" />
+    <div>
+      <div>  
+          <img 
+          className={'img-resume'}
+          src={resumegif} alt="resumegif pic" />
+      </div>
+
+      <img className='resume'
+        src={resume} alt="profile pic" />
+    </div>
   );
 }
