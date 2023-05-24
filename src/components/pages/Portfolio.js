@@ -5,7 +5,7 @@ import BeatsAndEats from "../../assets/images/BeatsAndEats.png";
 import about from '../../assets/images/About.gif'
 import portfoliogif from '../../assets/images/Portfolio.gif'
 import PlushiNet from '../../assets/images/plushigif.gif'
-import { Col, Divider, Row } from 'antd';
+import { Col, Row } from 'antd';
 
 
 export default function Portfolio() {
@@ -31,7 +31,7 @@ export default function Portfolio() {
       md={{ span: 7 }}
       lg={{ span: 5 }}
       xl={{ span: 7 }}>
-          <a href="https://shobannah.github.io/BeatsAndEats/" target="_blank">
+          <a href="https://shobannah.github.io/BeatsAndEats/" target="_blank" rel="noreferrer">
               <h5>BEETS & EATS</h5>
           </a>
           <img className='cardimg' src={BeatsAndEats} alt="BeatsAndEats pic" />
@@ -43,7 +43,7 @@ export default function Portfolio() {
       md={{ span: 7 }}
       lg={{ span: 5 }}
       xl={{ span: 7 }}>
-          <a href="https://recibeet-2.herokuapp.com/" target="_blank">
+          <a href="https://recibeet-2.herokuapp.com/" target="_blank" rel="noreferrer">
               <h5>ReciBEET</h5>
           </a>
           <img className='cardimg'src={reciBeet} alt="reciBeet" />
@@ -55,7 +55,7 @@ export default function Portfolio() {
       md={{ span: 7 }}
       lg={{ span: 5 }}
       xl={{ span: 7 }}>
-          <a href="https://plushinet.herokuapp.com" target="_blank">
+          <a href="https://plushinet.herokuapp.com" target="_blank" rel="noreferrer">
               <h5>PlushiNet</h5>
           </a>
           <img className='cardimg' src={PlushiNet} alt="reciBeet" />
