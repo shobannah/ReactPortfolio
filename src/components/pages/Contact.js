@@ -24,7 +24,7 @@ return (
       </div>
 
       <div className='links col-lg-4 col-md-4 col-xs'>
-        <h5 className='titlename'><a href="https://www.linkedin.com/in/shobannah-ally/" target="_blank">Linked In</a></h5>
+        <h5 className='titlename'><a href="https://www.linkedin.com/in/shobannah-ally/" target="_blank">LinkedIn</a></h5>
       </div>
     </div>
 
